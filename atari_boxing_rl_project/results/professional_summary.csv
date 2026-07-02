@@ -1,0 +1,7 @@
+Agent / setup,Algorithm,Training timesteps,Evaluation episodes,Average reward,Median reward,Reward std,Best reward,Worst reward,Wins,Losses,Draws,Win rate (%),Source file
+DQN 100k,DQN,100000,50,2.68,2.5,4.73,16.0,-8.0,36,9,5,72.0,results\dqn_evaluation_100k.csv
+DQN 250k,DQN,250000,50,10.44,10.5,6.83,29.0,-6.0,47,2,1,94.0,results\dqn_evaluation_250k.csv
+DQN 500k,DQN,500000,50,11.34,9.5,9.44,41.0,-3.0,47,1,2,94.0,results\dqn_evaluation_500k.csv
+DQN 1000k,DQN,1000000,50,30.9,29.0,10.45,50.0,6.0,50,0,0,100.0,results\dqn_evaluation_1000k.csv
+PPO 500k,PPO,500000,50,-16.88,-17.5,4.17,-10.0,-24.0,0,50,0,0.0,results\ppo_evaluation_500k.csv
+Random baseline,Random,0,50,-0.3,-0.5,6.9,17.0,-22.0,23,25,2,46.0,results\random_baseline_50ep.csv

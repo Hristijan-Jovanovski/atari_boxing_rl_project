@@ -1,0 +1,3 @@
+experiment,episodes,average_reward,reward_std,wins,losses,draws,win_rate,notes
+Random baseline,20,,,,,,,Fill after running random_baseline_ale.py
+DQN trained agent,20,,,,,,,Fill after running evaluate_agent.py
