@@ -1,0 +1,5 @@
+Experiment,Player 1 policy,Player 2 policy,Episodes,P1 avg reward,P2 avg reward,Avg reward diff P1-P2,Reward diff std,P1 wins,P2 wins,Draws,P1 win rate (%),P2 win rate (%),Source file
+Transferred DQN vs PPO,dqn,ppo,50,1.38,-1.38,2.76,7.19,24,16,10,48.0,32.0,results_multi_agent/ma_dqn_vs_ppo.csv
+Transferred DQN vs Random,dqn,random,50,6.36,-6.36,12.72,40.0,32,16,2,64.0,32.0,results_multi_agent/ma_dqn_vs_random.csv
+Transferred PPO vs Random,ppo,random,50,-10.56,10.56,-21.12,21.13,1,43,6,2.0,86.0,results_multi_agent/ma_ppo_vs_random.csv
+Random vs Random,random,random,50,-1.64,1.64,-3.28,14.12,17,31,2,34.0,62.0,results_multi_agent/ma_random_vs_random.csv
